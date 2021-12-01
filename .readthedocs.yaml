@@ -16,7 +16,6 @@ mkdocs:
 
 python:
   install:
-    - requirements: docs/requirements.txt
     - method: pip
       path: .
       extra_requirements:
@@ -29,9 +28,3 @@ formats:
   - epub
   - pdf
 
-search:
-  ranking:
-    api/v1/*: -1
-    api/v2/*: 4
-  ignore:
-    - 404.html
