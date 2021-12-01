@@ -1,0 +1,25 @@
+site_name: My Docs
+nav:
+-  Home: index.md
+ -  'Folder structure': 'en/co_new_project_folder_structure_of_the_documentation.md'
+ -  'How is the Flow custom framework built?': 'en/co_flow_custom_framework.md'
+ -  'DITAMAP templates': 'en/co_use_the_correct_type_of_map_for_the_right_purpose.md'
+ -  'To create a new ditamap with the correct template': 'en/ta_to_create_a_new_ditamap_with_the_correct_template.md'
+ -  'Deliverables': 'en/co_deliverables_movis.md'
+ -  'To create a new manual': 'en/ta_creating_a_new_manual.md'
+ -  'Translation workflow': 'en/co_translation_workflow.md'
+ -  'To export a DITA map': 'en/ta_exporting_dita_maps.md'
+ -  'Workflow after translation': 'en/ta_workflow_when_you_get_the_files_back_from_the_translation_agency.md'
+ -  'Delivery Portals': 'en/deliveryPortalMovis.md'
+ -  'To add an image to a tile on the home page': 'en/ta_how_to_add_images_to_tiles_on_the_home_page.md'
+ -  'Creating a product category overview': 'en/ta_creatingAProductCategoryOverview.md'
+ -  'Adding a list with hyperlinks to the different manuals': 'en/ta_addingAListWithHyperlinksToTheInstallationManual.md'
+ -  'Multilingual WebHelp responsive': 'en/co_multilingual_webhelp_responsive.md'
+ -  'To customize the language selector': 'en/creating_a_multilingual_webhelp_responsive.md'
+ -  'To create a valid XHTML file with the extra head information': 'en/ta_add_the_javascript_files_in_the_head_of_the_html_page.md'
+ -  'To link the XHTML file to the DITA-OT parameter': 'en/ta_add_a_custom_head_to_the_transformation_scenario.md'
+ -  'Oxygen XML': 'en/co_oxygen_xml.md'
+ -  'To publish DITA content with DITA-OT': 'en/ta_publishing_your_dita_content_to_multiple_output_formats.md'
+ -  'To install a DITA-OT plug-in with Oxygen XML': 'en/ta_installing_an_extra_dita_ot_plug_in_with_oxygenxml.md'
+ -  'To import a transformation scenario': 'en/ta_importing_a_transformation_scenario.md'
+theme: readthedocs
