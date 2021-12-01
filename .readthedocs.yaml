@@ -1,0 +1,37 @@
+# .readthedocs.yaml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# Required
+version: 2
+
+# Set the version of Python and other tools you might need
+build:
+  os: ubuntu-20.04
+  tools:
+    python: "3.9"
+
+mkdocs:
+  configuration: mkdocs.yml
+
+python:
+  install:
+    - requirements: docs/requirements.txt
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+    - method: setuptools
+      path: another/package
+  system_packages: true
+
+formats:
+  - epub
+  - pdf
+
+search:
+  ranking:
+    api/v1/*: -1
+    api/v2/*: 4
+  ignore:
+    - 404.html
