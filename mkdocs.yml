@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Oxygen XML
 nav:
 -  Home: index.md
  -  'Folder structure': 'en/co_new_project_folder_structure_of_the_documentation.md'
