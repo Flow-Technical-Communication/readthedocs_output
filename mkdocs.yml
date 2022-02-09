@@ -1,8 +1,6 @@
 site_name: ' DITA and MkDocs'
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
