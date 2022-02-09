@@ -20,4 +20,4 @@ nav:
 -  'Troubleshooting':
      -  'Link to media files is broken': 'en/tr_link_to_media_files_is_wrong.md'
 
-theme: readthedocs
+theme: mkdocs
