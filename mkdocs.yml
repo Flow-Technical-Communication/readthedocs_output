@@ -1,10 +1,5 @@
 site_name: ' DITA and MkDocs'
 
-markdown_extensions:
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-
 nav:
 -  Home: index.md
 -  'Initial set-up':
