@@ -1,2 +1,0 @@
-# DITA map elements
-

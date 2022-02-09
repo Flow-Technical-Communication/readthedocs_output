@@ -1,23 +1,22 @@
 ---
-author: [Pieterjan Vandenweghe, Kimberley.De.Moor]
-category: DITA
+author: [Pieterjan Vandenweghe, Pieterjan Vandenweghe]
 keyword: 
 ---
 
-# Oxygen XML
+# MkDocs Static site generator
 
-Oxygen XML is an XML editor \(developed by Syncro Soft\) that provides a suite of XML authoring and development tools. It is designed to accommodate a large number of users, ranging from beginners to XML experts. It is available on multiple platforms, all major operating systems, and as a standalone application or an Eclipse plug-in. You can use Oxygen XML Editor in conjunction with all XML-based technologies and it includes a variety of tools for creating, editing, and publishing XML documents \([1](#fntarg_1)
+MkDocs is a static site generator to build documentation based on files written in Markdown and configured by a YAML file. You can host these static sites on several hosting platforms. You can also test it before publication on a localhost. Static site integrate well with versioning tools like  and Gitlab.
 
--   **[Guidelines for writing in Oxygen XML](../en/to_guidelines_and_tips_oxygen_xml.md)**  
+Working in DITA does not mean you cannot work with a static site generator. On the one hand, you write the documentation in DITA and benefit from the advantages of the documentation standard and generate Markdown files as output format. On the other hand, you can write your blog articles directly in Markdown and publish it on the fly in your static site project.
 
--   **[Tips for writing in Oxygen XML](../en/to_tips_oxygen.md)**  
+Before you can start publishing your DITA files to a Mdocs site, you have to:
 
--   **[Publishing DITA content in Oxygen XML](../en/to_publishing_dita_content.md#)**  
+-   Install the latest version of Python
+-   Create a MkDocs project
+-   Install the correct ReadTheDocs dita-ot plug-in.
 
--   **[Detecting and fixing style guide errors in Oxygen XML](../en/co_validation_checks_in_oxygenxml.md)**  
-
--   **[Oxygen XML troubleshooting](../en/to_oxygen_xml_troubleshooting.md#)**  
+**Related information**  
 
 
-[1](#fnsrc_1) Source: [https://www.oxygenxml.com/](https://www.oxygenxml.com/)\).
+[mkdocs-installation]
 
